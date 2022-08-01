@@ -1,1 +1,118 @@
-hello World
+<!doctype html>
+<html lang="en">
+
+ 
+  <div class = top>
+   
+   <h1 class=title>yolo native plants</h1>
+<div id = pageOne> 
+  <div class=intro>Here’s a small database of plants native to the Yolo County area with brief instructions on plant care and some information on where you can buy them locally! 
+</div> 
+    
+  
+<div class=tags> <br> <select name="plantType" id="plantType" onChange="onFilterChange()">
+  <option value="">Plant type</option>
+  <option value="herb">Grasses</option>
+  <option value="shrub">Shrubs</option>
+  <option value="flower">Flowers</option>
+  <!-- <option value="tree">Trees</option> -->
+</select>
+    
+  <select name="season" id="season" onChange="onFilterChange()">
+  <option value="">Season</option>
+  <option value="winter">Winter</option>
+  <option value="spring">Spring</option>
+  <option value="summer">Summer</option>
+  <option value="fall">Fall</option>
+</select>
+   
+  <select name="commitment" id="commitment" onChange="onFilterChange()">n
+    <option value="">Growth</option>
+  <option value="low">Fast</option>
+  <option value="medium">Moderate</option>
+  <option value="high">Slow</option>
+  </select></div>   
+
+ 
+  <br>
+  
+   </div>
+  
+  </div>
+    
+<br>
+    </div>
+  
+  
+  
+        <div style="display: flex; flex-direction: row; flex-wrap: wrap;" id="plantList"></div>
+  
+
+  <div id="plantInfo"
+    style="display:none"></div>
+
+ 
+
+<p style = "padding-top:20px; padding-bottom:20px; padding-left:5px; padding-right:5px; color: white; background:#ac8a65; border-top-left-radius:25px; border-top-right-radius:25px;"> Why is this important? Native plants are naturally sustainable in their community of origin! By planting more local plants we're saving water (California natives are naturally drought-tolerant!), lowering the need for harmful pesticides, and creating habitats for many native species in the area such as butterflies, birds, and other pollinators! </p>
+
+
+</body>
+
+<style>
+  
+.plantcard {
+  border: 3px solid #ac8a65;
+  background: #ac8a65;
+  color: white;
+  width: 245px;
+  margin: 5px;
+}
+
+  .title {
+    text-align: center;
+    background-color: #ede1d6;
+    color: #866642;
+    font-family: papyrus, fantasy;
+    padding: 5px;
+    
+  }
+  .intro {
+    text-align: center; 
+    color: white;
+    font-stretch: condensed;
+    font-family: :"garamond", serif;
+     
+  }
+
+  .top{
+     background-color: #ac8a65;
+    border-radius: 15px;
+  }
+  
+  
+  .tags {
+    padding-left: 10px
+    
+  }
+  
+  
+  body {
+    background-color: #ede1d6;
+    padding-right: 100px;
+    padding-left: 100px;
+  
+  }
+  
+  .infocard {
+    background-color: #ac8a65;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  }
+
+
+  
+  
+</style>
+ 
